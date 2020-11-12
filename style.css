@@ -1,0 +1,298 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color:rgb(253, 248, 247);
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+.menu-wrap{
+    display: none;
+}
+ 
+  #check{
+      display: none;
+  }
+ .checkbtn{
+     font-size: 30px;
+     color: white;
+     position: absolute;
+      right: 0px;
+     line-height: 80px;
+     margin-right: 40px;
+     cursor: pointer;
+     display: none;
+
+
+ }
+#navbar{
+    display:flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+ height: 65px;
+ width: 100%;
+}
+#navbar::before{
+    content: "";
+    background-color:rgb(146, 142, 142);
+    position: absolute;
+    height: 100%;
+     width: 100%;
+    z-index: -1;
+    opacity: .39;
+}
+#logo{
+     margin-top: 10px;
+    margin-left: 13px;
+    height: 80px;width: 130px;
+    
+}
+.navul{
+      display: flex;
+   margin-left: 380px;
+}
+
+.items{
+    font-size: 28px;
+    list-style: none;
+}
+.navitems{
+    color: white;
+     padding:10px 25px;  
+    text-decoration: none;display: block;
+    font-family: 'Playfair Display', serif;
+
+
+
+}
+.navitems:hover{
+    font-weight: bold;
+}
+#mainwelcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+height: 90vh;
+ animation: animate 63s ease-out infinite;
+background-size: cover; 
+border-bottom: 3px solid rgb(167, 115, 70);
+font-size: 40px;
+ }
+     @keyframes animate{
+         0%,100%{
+             background-image: url(/Images/img9.jpg);
+         }
+         25%{
+             background-image: url(/Images/img12.jpg);
+         }
+         50%{
+             background-image: url(/Images/img14.jpg);
+         }
+         75%{
+             background-image: url(/Images/img11.jpg);
+         }
+     } 
+#welcome{
+    font-size: 65px;color: white;
+    font-family: 'Great Vibes', cursive;
+
+}
+#quote1{
+    margin-top: -38px;
+}
+#quote2{
+    margin-top: 12px;
+}
+.quote{
+    color: black;font-size:46px;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+
+
+#highlights{
+    margin-top: 80px;
+    margin-left: 85px; 
+    display: flex;
+   
+}
+#image1{
+    height: 357px;
+    width: 300px;
+      border: 2px solid rgb(167, 115, 70);
+      border-radius: 7px;
+      
+}
+#Contents{
+     margin-top:0px;
+      margin-left:67px;
+     font-size:90px;color:rgb(167, 115, 70);
+     
+     font-family: 'Great Vibes', cursive;
+
+
+}
+#Contents-in{
+    display: flex;
+    flex-direction: row;
+}
+#Contentstag{
+    margin-top: -59px;
+    margin-left:67px;
+   font-size:40px;color: rgb(15, 14, 14);
+   font-family: 'Montserrat', sans-serif;
+
+}
+#topics{
+    margin-top: 27px;
+    margin-left: 40px;
+}
+.articles-topics{
+    color:black;
+    list-style: square;
+    padding-top: 8px;
+}
+.list{
+    text-decoration: underline;
+    font-size: 23px;
+    color:black;
+}
+.articles-topics1{
+    list-style: none;
+}
+#others{
+     color: blue;
+    text-decoration:underline;
+}
+.About{
+    font-size: 90px;
+    display: flex;color:rgb(167, 115, 70);
+    align-items: center;
+    justify-content: center;margin-top: 70px;
+    font-family: 'Great Vibes', cursive;
+
+}
+.Aboutdiscription{
+    font-size: 42px;
+    display: flex;
+    color:rgb(15, 14, 14);
+    align-items:center;justify-content: center;
+   margin-top: -59px;
+   font-family: 'Montserrat', sans-serif;
+
+
+}
+.about{
+    display: flex;
+     margin-top: 30px;
+}
+.image2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(167, 115, 70);
+    border-radius: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.first-in{
+
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+margin: auto;
+display: block;
+}
+.tagline{
+    text-align: center;
+    color: grey;    font-size: 22px;
+    font-style: italic;
+    
+}
+.special{
+    text-align: center;
+    color: black;font-size: 35px;
+}
+
+#Contact{
+    margin-top: 40px;
+    position: absolute;
+    width: 100%;
+    background-color:black;z-index: -1;
+    border-top: 4px solid rgb(167, 115, 70);
+  }
+    
+#contactheading{
+  color:rgb(167, 115, 70);text-align: center;
+  font-size: 77px; font-family: 'Great Vibes', cursive;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+#contactbigbox{
+  display: flex;
+  flex-direction: column;
+}
+#contactbox{
+  display: block;
+  margin: auto;
+  width: 700px;
+
+}
+#contactheadinginfo{
+  color:white;
+  font-size: 23px;text-align: center;width: 100%;
+  line-height: 1.9rem;
+  font-style: italic;
+  }
+
+ #websitename{
+     display: flex;
+     flex-direction: row;
+     align-items: center;justify-content: center;
+     margin-top: 60px;margin-right: 73px;
+ }
+
+.web{
+  font-size: 24px;color:white;
+  margin-left: 15px;
+}
+.email{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.extra ul{
+    display: flex;
+    flex-direction: row;
+}
+.extra-list{
+    color: white;
+    /* list-style: none; */
+    padding-right: 59px;
+}
+.extra-link{
+    color: white;
+    font-size: 24px;
+}
+.extra-link:hover{
+    font-weight:bold;
+}
+ #copyright{
+     
+     text-align: center;
+   color:white;font-size: 25px;
+      margin-top: 88px;
+      font-style: italic;
+ }
+
+/* Responsive design */
+

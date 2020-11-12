@@ -1,0 +1,862 @@
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        background-color: #fff;
+        background-blend-mode: screen;
+        background-size: cover;
+        scroll-behavior: smooth;    
+    }
+    .menu-wrap{
+        display: none;
+    }
+        #navbar{
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 100%;
+            height:70px;
+            animation: animate 33s ease-out infinite;
+background-size: cover; 
+        }
+        @keyframes animate{
+            0%,100%{
+                background-image: url(/Images/img9.jpg);
+            }
+            25%{
+                background-image: url(/Images/img12.jpg);
+            }
+            50%{
+                background-image: url(/Images/img14.jpg);
+            }
+            /* 75%{
+                background-image: url(Images/img11.jpg);
+            } */
+        }
+    
+        #logo{
+            margin-top: 10px;
+           margin-left: 13px;
+           height: 80px;width: 130px;
+           
+       }
+        #site-name{
+            font-size: 60px;
+            margin-left: -18px;
+     color: white;
+        }
+        #navul{
+            display: flex;
+            position: absolute;
+           
+            right: 26px;
+        }
+        .list{
+            list-style: none;
+            margin-right: 39px;
+        }
+        .click{
+         padding: 5px;
+         padding-left:8px;
+         padding-right:8px;
+            font-size: 30px;
+          border-radius: 19px;
+          text-decoration: none;
+          color:white;
+
+        }
+        #grid{
+            display: flex;
+            flex-direction: row;
+        }
+        #box1{
+            width:70%;
+            margin-top: 70px;
+            margin-left: 24px;
+            
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            /* padding: 0px 20px; */
+        }
+        #box-content{
+            padding: 28px;
+        }
+        #heading{
+            color: black;
+            font-size: 35px;
+        }
+        #box-para{
+            font-size: 21px;
+            line-height: 2.1rem;
+            width: 93%;
+                }
+                #box2{
+                    margin-top: 130px;
+                    margin-right: 20px;
+                    margin-left: 50px; 
+                              }
+                              #image{
+                                height: 400px;
+                                /* width: 100px; */
+                                margin-left:0px ;
+                                margin-top: 30px;
+                                width: 500px;
+                                border: 4px solid white;
+                                border-radius: 18px;
+                            
+                            }
+                            #topics{
+                                margin-left: 67px;
+                                margin-top: 40px;
+                            }
+                            .topicheading{
+                                font-size: 30px;
+                                color: rgb(167, 115, 70);
+                                font-family: 'Great Vibes', cursive;
+                            }
+                            .class{
+                                font-size: 23px;
+                            
+                                color: grey;
+                                line-height: 2.1rem;
+                            }
+                            .classin{
+                                font-size: 21px;
+                                color: grey;font-style: italic;
+                                text-decoration: none;
+                            }
+                            .classin:hover{
+                             text-decoration: underline;
+                            }
+                            #About{
+                                font-size: 90px;
+                                display: flex;color:rgb(167, 115, 70);
+                                align-items: center;
+                                justify-content: center;margin-top: 70px;
+                                font-family: 'Great Vibes', cursive;
+                            
+                            }
+                            #Aboutdiscription{
+                                font-size: 42px;
+                                display: flex;
+                                color:rgb(15, 14, 14);
+                                align-items:center;justify-content: center;
+                               margin-top: -59px;
+                               font-family: 'Montserrat', sans-serif;
+                            
+                            
+                            }
+                            #about{
+                                display: flex;
+                                 margin-top: 30px;
+                            }
+                            .image2{
+                                height: 200px;
+                                width: 200px;
+                                border: 2px solid rgb(167, 115, 70);
+                                border-radius: 50%;
+                                display: block;
+                              margin-left: auto;
+                              margin-right: auto;
+                            
+                            }
+                            .first{
+                            
+                                height: 400px;
+                                width: 400px;
+                                display: flex;
+                                flex-direction: column;
+                            margin: auto;
+                            display: block;
+                            }
+                            .tagline{
+                                text-align: center;
+                                    font-size: 22px;
+                                color: grey;
+                                font-style: italic;
+                            }
+                            .special{
+                                text-align: center;
+                                color: black;font-size: 35px;
+                            }
+                            
+                            #community{
+                                content: "";
+                                height: 100%;
+                                width: 100%;
+                                position: relative;
+                                background-color: black;
+                                background-size: cover;
+                                z-index: -1;border-top: 4px solid rgb(167, 115, 70);
+                            }
+                            #communityheading{
+                                font-size: 77px;
+                                margin-top: 20px;
+                                text-align: center;color: rgb(167, 115, 70);
+                                font-family: 'Great Vibes', cursive;
+                            }
+                            #communitytag{
+                                font-size: 20px;
+                                color: grey;text-align: center;margin-top: 10px;
+                            }
+                            #communitypara{
+                                width:100%;
+                                display: block;
+                                margin: auto;
+                            }
+                            .communitypara{
+                                margin:0px 200px;
+                            
+                                margin-top: 30px;
+                                text-align: center;
+                                font-size: 23px;line-height: 1.9rem;color: white;
+                                padding-bottom: 30px;
+                            }
+                            #Contact{
+                                margin-top: 40px;
+                                position: absolute;
+                                width: 100%;
+                                background-color:black;z-index: -1;
+                                border-top: 4px solid rgb(167, 115, 70);
+                              }
+                                
+                            #contactheading{
+                              color:rgb(167, 115, 70);text-align: center;
+                              font-size: 77px; font-family: 'Great Vibes', cursive;
+                              margin-top: 35px;
+                              margin-bottom: 30px;
+                            }
+                            #contactbigbox{
+                              display: flex;
+                              flex-direction: column;
+                            }
+                            #contactbox{
+                              display: block;
+                              margin: auto;
+                              width: 700px;
+                            
+                            }
+                            #contactheadinginfo{
+                              color:white;
+                              font-size: 23px;text-align: center;width: 100%;
+                              line-height: 1.9rem;
+                              font-style: italic;
+                              }
+                            
+                             #websitename{
+                                 display: flex;
+                                 flex-direction: row;
+                                 align-items: center;justify-content: center;
+                                 margin-top: 60px;margin-right: 73px;
+                             }
+                            
+                            .web{
+                              font-size: 24px;color:white;
+                              margin-left: 15px;
+                            }
+                            .email{
+                              display: flex;
+                              flex-direction: row;
+                              align-items: center;
+                              justify-content: center;
+                              margin-top: 40px;
+                            }
+                            .extra ul{
+                                display: flex;
+                                flex-direction: row;
+                            }
+                            .extra-list{
+                                color: white;
+                                /* list-style: none; */
+                                padding-right: 59px;
+                            }
+                            .extra-link{
+                                color: white;
+                                font-size: 24px;
+                            }
+                            .extra-link:hover{
+                                font-weight:bold;
+                            }
+                             #copyright{
+                                 
+                                 text-align: center;
+                               color:white;font-size: 25px;
+                                  margin-top: 88px;
+                                  font-style: italic;
+                             }
+                            
+                            /* Responsive design */
+                            @media (max-width:1170px){
+                                #image{
+                                    height: 400px;
+                                    width: 430px;
+                                    margin-top: 71px;
+                                }
+                            }
+                            @media (max-width:1030px){
+                                #box1{
+                                        margin-left: 2px;
+                                        /* width: 90%; */width: auto;
+                                    }
+                                    #image{
+                                        margin-left: 0px;
+                                        margin-top:141px;
+                                    }
+                                    #box2{
+                                        margin-left: 6px;
+                                        margin-right: 7px;
+                                    }
+                                
+                            }
+                            @media (max-width:930px){
+                                #grid{
+                                    flex-direction: column;
+                                }
+                                #image{
+                                    height: 400px;
+                                    width: 520px;
+                                }
+                                #box2{
+                                    margin-top: 9px;
+                                    text-align: center;
+                                }
+                                #image{
+                                    margin-top: 0px;
+                                }
+                            }
+                            @media (max-width:840px){
+                                #about{
+                                    display: flex;
+                                   flex-direction: column;
+                                   align-items: center;
+                                   justify-content: center;
+                                }
+                                #first{
+                                    order: 2;
+                                }
+                                #second{
+                                    order:1;
+                                }
+                                #third{
+                                    
+                                    order: 3;
+                                }
+                               .first{
+                                 
+                                   align-items: center;
+                                   width: 500px;
+                                   height: 380px;
+                               }
+                            }
+                            @media (max-width:785px){
+                                #logo{
+                                    margin-left: 0px;height: 74px;
+                                    width: 126px;
+                                }
+                                #sitename{
+                                    font-size: 50px;
+                                }
+                                #navul{
+                                    right: 0px;
+                                }
+                                .click{
+                                    font-size: 25px;
+                                }
+                                .communitypara{
+                                    margin: 0px 0px;
+                                }
+                                #communityheading{
+                            font-size: 59px;
+                                }
+                                #contactheading{
+                                    font-size: 58px;
+                                }
+                                .extra-link{
+                                    font-size: 20px;
+                                  }
+                            }
+                            @media (max-width:700px){
+                                #site-name{
+                                    font-size: 45px;
+                                }
+                                #logo{
+                                    margin-left:-24px;height: 66px;
+                                    width: 132px;
+                                }
+                                #navul{
+                                    right: 50px;
+                                }
+                                #box1{
+                                    margin-top: 40px;
+                                }
+                                .list{
+                                    
+                                        margin-right: 0px;
+                                }
+                                .click{
+                                    padding: 0px 23px;
+                                }
+                                #heading{
+                                    font-size: 30px;
+                                }
+                                #box-para{
+                                    line-height: 1.8rem;
+                                }
+                                #image{
+                                    height: 352px;width: 510px;
+                                }
+                                #contactbox{
+                                    width: auto;
+                                }
+                            }
+                            @media (max-width:620px){
+                                .click{
+                                    padding: 0px 15px;
+                                }
+                            }
+                            @media (max-width:600px){
+                                #image{
+                                    height: 320px;
+                                    width:459px;
+                                }
+                                #topics{
+                                    margin-left:27px;
+                                }
+                                .click{
+                                    font-size: 20px;
+                                }
+                                #site-name{
+                                    font-size: 40px;
+                                }
+                                #heading{
+                                    font-size: 25px;
+                                }
+                                #box-para{
+                                    font-size: 18px;
+                                }
+                                #communityheading{
+                                    font-size: 50px;
+                                        }
+                                        #communitypara{
+                                            font-size: 21px;
+                                        }
+                                        #contactheading{
+                                            font-size: 50px;
+                                        }
+                                        #contactheadinginfo{
+                                            font-size: 21px;
+                                        }
+                                        .web{
+                                            font-size: 21px;
+                                        }
+                                        #copyright{
+                                            font-size: 21px;
+                                        }
+                                        .extra-list{
+                                            padding-right: 31px;
+                                          }
+                                    }
+                                    @media(max-width:550px){
+                                        .tagline{
+                                          font-size: 20px;
+                                        }
+                                    }
+                            @media (max-width:528px){
+                                #navul{
+                                    right: 25px;
+                                }
+                                #logo{
+                                    height: 56px;
+                                    width:113px;
+                                }
+                                #site-name{
+                                    margin-left: -30px;
+                                }
+                                #image{
+                                    width: 400px;
+                                }
+                            }
+                            @media(max-width:500px){
+                                #About{
+                                    font-size: 60px;
+                                }
+                                #Aboutdiscription{
+                                    font-size: 35px;
+                                    margin-top: -44px;
+                                }
+                                .first {
+                                    width: auto;
+                                }
+                            }
+                            @media (max-width:475px){
+                                #navul{
+                                    right: 13px;
+                                }
+                                .click{
+                                    padding: 0px 10px;
+                                }
+                                #box1{
+                                    width:100%;
+                                }
+                                
+                            }
+                            
+                            @media (max-width:430px){
+                            #click{
+                                display: none;
+                                
+                            }
+                            .click{
+                                padding: 0px 7px;
+                            }
+                            #navul{
+                                right: 41px;
+                            }
+                            
+                            }
+                            @media (max-width:420px){
+                                .first{
+                                    height: 300px;
+                                }
+                                .tagline{
+                                    margin-top: -20px;
+                                }
+                                .image2{
+                                height: 150px;width: 150px;
+                                   }
+                                   #navul{
+                                    display: none;
+                                }
+                                .menu-wrap{
+                                    display: block;
+                                }
+                            
+                            :root{
+                                --primary-color: rgba(13, 110, 139, 0.75);
+                                 
+                                --overlay-color: rgb(167, 115, 70);
+                            --menu-speed: 0.75s;
+                            
+                            }
+                            .container {
+                                max-width: 960px;
+                                margin: auto;
+                                overflow: hidden;
+                                padding: 0 3rem;
+                              }
+                               
+                              .showcase {
+                                background: var(--primary-color);
+                                color: #fff;
+                                height: 100vh;
+                                position: relative;
+                              }
+                               
+                              .showcase:before {
+                                content: '';
+                                background: url(Images/img12.jpg) no-repeat center center/cover;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                z-index: -1;
+                              }
+                               
+                              .showcase .showcase-inner {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: center;
+                                text-align: center;
+                                height: 100%;
+                              }
+                               
+                              .showcase h1 {
+                                font-size: 4rem;
+                              }
+                               
+                              .showcase p {
+                                font-size: 1.3rem;
+                              }
+                               
+                              .btn {
+                                display: inline-block;
+                                border: none;
+                                background: #333;
+                                color: #fff;
+                                padding: 0.75rem 1.5rem;
+                                margin-top: 1rem;
+                                transition: opacity 1s ease-in-out;
+                                text-decoration: none;
+                              }
+                               
+                              .btn:hover {
+                                opacity: 0.7;
+                              }
+                               
+                              /* MENU STYLES */
+                              .menu-wrap {
+                                position: absolute;
+                                display: flex;
+                                top: 0;
+                                right: 0;
+                                z-index: 1;
+                                /* background-color: grey; */
+                              }
+                              /* .menu-wrap::before{
+                                  content: "";
+                                  height:100%;
+                                 width:100%;
+                                 background-color: grey;
+                                 position: fixed;
+                                 } */
+                               
+                              .menu-wrap .toggler {
+                                position: fixed;
+                                top: 0;
+                                right:0;
+                                z-index: 2;
+                                cursor: pointer;
+                                width: 50px;
+                                height: 50px;
+                                opacity: 0;
+                              }
+                               
+                              .menu-wrap .hamburger {
+                                position:fixed;
+                                top: 0;
+                                right: 0;
+                                z-index: 1;
+                                width: 27px;
+                                height: 33px;
+                                padding: 1rem;
+                                
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                              }
+                               
+                              /* Hamburger Line */
+                              .menu-wrap .hamburger > div {
+                                position: relative;
+                                flex: none;
+                                width: 100%;
+                                height: 2px;
+                                background: #fff;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                transition: all 0.4s ease;
+                              }
+                               
+                              /* Hamburger Lines - Top & Bottom */
+                              .menu-wrap .hamburger > div::before,
+                              .menu-wrap .hamburger > div::after {
+                                content: '';
+                                position: absolute;
+                                z-index: 1;
+                                top: -10px;
+                                width: 100%;
+                                height: 2px;
+                                background: inherit;
+                              }
+                            
+                               
+                              /* Moves Line Down */
+                              .menu-wrap .hamburger > div::after {
+                                top: 10px;
+                              }
+                              /* .menu-wrap:before .toggler:checked{
+                                  content: "";
+                                  height: 100%;
+                                  width: 100%;
+                                  position:fixed;
+                                  background-color: grey;
+                              } */
+                               
+                              /* Toggler Animation */
+                              .menu-wrap .toggler:checked + .hamburger > div {
+                                transform: rotate(135deg);
+                                /* background-color: grey; */
+                              }
+                               
+                              /* Turns Lines Into X */
+                              .menu-wrap .toggler:checked + .hamburger > div:before,
+                              .menu-wrap .toggler:checked + .hamburger > div:after {
+                                top: 0;
+                                transform: rotate(90deg);
+                              }
+                               
+                              /* Rotate On Hover When Checked */
+                              .menu-wrap .toggler:checked:hover + .hamburger > div {
+                                transform: rotate(225deg);
+                              }
+                               
+                              /* Show Menu */
+                              .menu-wrap .toggler:checked ~ .menu {
+                                visibility: visible;
+                              }
+                               
+                              .menu-wrap .toggler:checked ~ .menu > div {
+                                transform: scale(1);
+                                transition-duration: var(--menu-speed);
+                              }
+                               
+                              .menu-wrap .toggler:checked ~ .menu > div > div {
+                                opacity: 1;
+                                transition:  opacity 0.4s ease 0.4s;
+                              }
+                               
+                              .menu-wrap .menu {
+                                position: fixed;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                visibility: hidden;
+                                overflow: hidden;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                              }
+                               
+                              .menu-wrap .menu > div {
+                                background: var(--overlay-color);
+                                border-radius: 50%;
+                                width: 200vw;
+                                height: 200vw;
+                                display: flex;
+                                flex: none;
+                                align-items: center;
+                                justify-content: center;
+                                transform: scale(0);
+                                transition: all 0.4s ease;
+                              }
+                               
+                              .menu-wrap .menu > div > div {
+                                text-align: center;
+                                max-width: 90vw;
+                                max-height: 100vh;
+                                opacity: 0;
+                                transition: opacity 0.4s ease;
+                              }
+                               
+                              .menu-wrap .menu > div > div > ul > li {
+                                list-style: none;
+                                color: white;
+                                font-size: 1.5rem;
+                                padding: 1rem;
+                              }
+                               
+                              .menu-wrap .menu > div > div > ul > li > a {
+                                color: inherit;
+                                text-decoration: none;
+                                transition: color 0.4s ease;
+                              }
+                                  body{
+                                  background:linear-gradient(0deg, rgb(201, 85, 85), rgb(22, 21, 21), url("Images/img14.jpg"));
+                                background-size:cover;
+                              }
+                              .box {
+                                  display: flex;
+                                  }
+                              
+                              .box .inner {
+                                  width: 900px;
+                                  height: 200px;
+                                  line-height: 200px;
+                                  font-size: 50px;
+                                  font-family: sans-serif;
+                                  font-weight: bold;
+                                  white-space: nowrap;
+                                  overflow: hidden;
+                              }
+                              
+                              .box .inner:first-child {
+                                  background-color: indianred;
+                                  color: darkred;
+                                  transform-origin: right;
+                                  transform: perspective(100px) rotateY(-15deg);
+                              }
+                              
+                              .box .inner:last-child {
+                                  background-color: lightcoral;
+                                  color: antiquewhite;
+                                  transform-origin: left;
+                                  transform: perspective(100px) rotateY(15deg);
+                              }
+                              
+                              .box .inner span {
+                                  position: absolute;
+                                  animation: marquee 5s linear infinite;
+                              }
+                              
+                              .box .inner:first-child span {
+                                  animation-delay: 2.5s;
+                                  left: -100%;
+                              }
+                              
+                              @keyframes marquee {
+                                  from {
+                                      left: 100%;
+                                  }
+                              
+                                  to {
+                                      left: -100%;
+                                  }
+                              }
+                            }
+                            
+                            @media (max-width:400px){
+                                #image{
+                                    display: none;
+                                }
+                                #box-para{
+                                     line-height: normal;width: 100%;
+                                }
+                                #box1{
+                                    margin-left: -11px;
+                                }
+                                #topics{
+                                    margin-top:19px;
+                                    margin-left: 2px;
+                                }
+                                .topic1{
+                                    width: auto;
+                                }
+                            }
+                            @media (max-width:365px){
+                            
+                              
+                                #site-name{
+                                    font-size: 30px;
+                                    margin-left: -26px;
+                                }
+                              
+                            
+                            }
+                            @media(max-width:354px){
+                                .extra-list{
+                                    padding-right: 20px;
+                                
+                                  }
+                                  .extra-link{
+                                    font-size: 17px;
+                                  }
+                                .special{
+                                    font-size: 28px;
+                                }
+                                .tagline{
+                                    font-size: 18px;
+                                }
+                            }
+                            @media (max-width:327px){
+                                
+                                .click{
+                                    padding: 0px 4px;
+                                }
+                            }
+                            @media (max-width:310px){
+                            
+                            }
